@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Dorsa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dorsa/v13/yYLn0hjd0OGwqo49.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mz9JQVG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mrs Sheppards';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mrssheppards/v11/PN_2Rfm9snC0XUGoEZhb91ig3vg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaA.ttf) format('truetype');
+}
+* {
+  margin: 0;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.dorsa {
+  font-family: Dorsa;
+}
+.jost {
+  font-family: Jost;
+}
+.mrsshep {
+  font-family: "Mrs Sheppards";
+}
+.rob {
+  font-family: "Roboto Slab";
+}
+/*# sourceMappingURL=style.css.map */
